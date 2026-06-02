@@ -19,6 +19,22 @@ const activityComponents = {
   'task-sequencer':       lazy(() => import('../activities/TaskSequencer')),
   'color-sorting':        lazy(() => import('../activities/ColorSorting')),
   'feelings-journal':     lazy(() => import('../activities/FeelingsJournal')),
+  // Newly implemented
+  'sequence-recall':      lazy(() => import('../activities/SequenceRecall')),
+  'visual-patterns':      lazy(() => import('../activities/VisualMemory')),
+  'spot-difference':      lazy(() => import('../activities/SpotDifference')),
+  'visual-scan':          lazy(() => import('../activities/VisualScan')),
+  'daily-routine':        lazy(() => import('../activities/DailyRoutine')),
+  'categorization':       lazy(() => import('../activities/Categorization')),
+  'logic-games':          lazy(() => import('../activities/LogicPuzzles')),
+  'cause-effect':         lazy(() => import('../activities/CauseEffect')),
+  'story-completion':     lazy(() => import('../activities/StoryCompletion')),
+  'facial-expressions':   lazy(() => import('../activities/FacialExpressions')),
+  'social-scenarios':     lazy(() => import('../activities/SocialScenarios')),
+  'perspectives':         lazy(() => import('../activities/Perspectives')),
+  'coping-cards':         lazy(() => import('../activities/CopingCards')),
+  'shape-recognition':    lazy(() => import('../activities/ShapeExplorer')),
+  'visual-exploration':   lazy(() => import('../activities/VisualExplorer')),
 }
 
 function LoadingSpinner() {
